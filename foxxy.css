@@ -369,7 +369,7 @@ body{
 }
 
 
-@media(max-width:500px){
+@media(max-width:1284px){
     .container{
         display: flex;
         font-size: 10px;
