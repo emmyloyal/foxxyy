@@ -375,6 +375,9 @@ body{
         font-size: 10px;
         column-gap: 40px;
     }
+    .foxxydetail{
+        visibility: hidden;
+    }
     .foxxydetail,.socialhandle{
         display: flex;
 
