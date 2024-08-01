@@ -542,8 +542,18 @@ place-content: center;
 }
 body{
     overflow-x: hidden;
+    padding: ;
     
 }
+.container{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: black;
+    padding-top: 20x;
+    position: fixed;
+    
 .ghost1{
 
 }
