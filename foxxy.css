@@ -339,7 +339,7 @@ body{
 
 }
 .spirit{
-    padding-bottom: 100px;
+    padding-bottom: 0;
 }
 .latestline{
     height: 3px;
@@ -372,40 +372,55 @@ body{
 @media(max-width:1284px){
     .container{
         display: flex;
+        justify-content: space-between;
         font-size: 10px;
-        column-gap: 40px;
+        column-gap: 5px;
+        padding: ;
     }
     .foxxydetail{
         visibility: hidden;
     }
     .foxxydetail,.socialhandle{
         display: flex;
+        column-gap: 20px;
+        padding-right: 50px;
 
     }
     .secondmain{
         display: flex;
         flex-direction: row;
-        justify-content:space-around;
+        justify-content:space-aro
     
     }
     .secondtext{
-        font-size: 40px;
+        font-size: 50px;
         width: 400px;
-        
-        
+   
+    }
+    .logo{
+        width: 200px;
+        height: 100px;
+    }
+    .secondcon{
+        padding-left: 40px;
+    }
+    .biggercon{
+        padding-bottom: 100px;
     }
     .secondcover{
+        
+        
     display: grid;
-    height: 400px;
     background-color: white;
     width: 100%;
     border-radius: 10px;
     padding: 5px;
     row-gap: 80px;
+    padding-bottom: 700px;
     
         
     }
-    .dataimagecon, .secondinsignt, .strong2{
+    .dataimagecon, .secondinsignt, .shore{
         display: grid;
         justify-items: center;
         border-width: 4px;
@@ -418,7 +433,9 @@ body{
     }
     
     .dataimage, .insigntimage, .onshore{
-        width: 400px;
+        width: 600px;
+        height: 400px;
+        min-width: 300px;
     }
     .ghost{
         width: 100%;
@@ -426,7 +443,9 @@ body{
         display: grid;
         font-size: 20px;
         border-radius: 10px;
-        visibility: hidden;
+        visibility: hidde;
+        padding-bottom: 500px;
+        padding-top: 200px;
     }
 
 
@@ -462,6 +481,9 @@ body{
     .containexpert, .containpore{
         display: grid;
         grid-template-columns: 2fr 2fr;
+        row-gap: 70px;
+        font-size:20px;
+        
     }
 
     .secondinside{
@@ -471,6 +493,7 @@ body{
  .readmore{
     width: 100px;
     padding: 17px;
+    
  }
  .biggercon{
     height: 400px;
@@ -479,6 +502,56 @@ body{
     padding-top: 200px;
     padding-left: 10px;
     width: 100%;
+}
+.who{
+    
+    row-gap: 10px;
+
+
+}
+.mainissue{
+    
+    padding-bottom: 500px;
+    
+
+    
+}
+.folder{
+padding-top: 450px;
+font-size: 30px;
+
+display: grid;
+place-content: center;
+
+
+
+    
+}
+.spirit1{
+    display: grid;
+    font-size: 20px;
+    row-gap: 40px;
+}
+.spirit{
+    display: grid;
+    place-content: center;
+}
+.ghost{
+    padding-top: 1px;
+
+}
+.ghost1{
+
+}
+.ghost2{
+
+
+
+}
+.ghost3{
+
+
+
 }
 
  
