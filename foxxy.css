@@ -12,6 +12,10 @@ body{
     padding-bottom: 400px;
     
 }
+.maincontainer{
+    display: grid;
+    align-items: center;
+}
 
 .container{
     
@@ -545,6 +549,7 @@ body{
     padding: ;
     max-width: 100%;
     margin: 0;
+    padding: 0;
     
 }
 .container{
@@ -552,7 +557,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: red;
+    background-color: black;
     width: 100%;
     padding-top: 20x;
     position: fixed;
@@ -569,6 +574,10 @@ body{
 
 
 
+}
+.maincontainer{
+    display: grid;
+    align-items: center;
 }
 
  
