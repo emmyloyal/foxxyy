@@ -543,6 +543,8 @@ place-content: center;
 body{
     overflow-x: hidden;
     padding: ;
+    max-width: 100%;
+    margin: 0;
     
 }
 .container{
