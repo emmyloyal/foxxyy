@@ -540,6 +540,10 @@ place-content: center;
     padding-top: 1px;
 
 }
+body{
+    overflow-x: hidden;
+    
+}
 .ghost1{
 
 }
